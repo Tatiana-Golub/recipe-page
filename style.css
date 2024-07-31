@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin-top: -5px;
+    height: 300px;
+    border-radius: 4%;
+    margin-bottom: 8px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    font-family: "Young Serif", sans-serif; 
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 13px;
+}
+p {
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 0.013em;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    max-width: 1440px;
+    background-color: hsl(30, 54%, 90%);
+}
+.container {
+
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    margin: 120px auto;
+    max-width: 740px;
+    padding: 50px 40px;
+    border-radius: 5%;
+}
+.head {
+    padding-top: 25px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.information {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5%;
+    font-family:sans-serif;
+}
+h3.list {
+    padding-top: 15px;
+    padding-left: 28px;
+    letter-spacing: -0.04em;
+    line-height: 2;
+    font-size: 16px;
+}
+li.list {
+    
+}
+li:before {
+    content: "";
+    margin-left: 1rem;
+}
